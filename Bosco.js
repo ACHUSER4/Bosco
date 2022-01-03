@@ -988,7 +988,7 @@ const ftrol = {
  ${jmn} -  ${jmo}\n${week} - ${calender}
  `
  menubutton = [{buttonId:`${prefix}help`,buttonText:{displayText:'MENU'},type:1},
- {buttonId:`${prefix}sc`,buttonText:{displayText:''},type:1},
+ {buttonId:`${prefix}sc`,buttonText:{displayText:'SCRIPT'},type:1},
  {buttonId:`${prefix}boscogroup`,buttonText:{displayText:'BOT GROUP'},type:1}
 ]
  menumessage = { contentText: ` `, footerText: `${hehe}`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
