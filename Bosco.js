@@ -3483,7 +3483,5 @@ console.log('[',color('TEXT','teal'),']',`Message : ${budy} From`, color(pushnam
         }
 	}
 }
-case 'welcome':
-               if (!isGroup) return reply(mess.group) if (args[0] === 'on') { if (isWelkom) return reply('𝙰𝙻𝚁𝙴𝙰𝙳𝚈 𝙴𝙽𝙰𝙱𝙻𝙴𝙳') welkom.push(from) fs.writeFileSync('./database/welcome.json', JSON.stringify(welkom)) reply('𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙴𝙽𝙰𝙱𝙻𝙴𝙳') } else if (args[0] === 'off') { if (!isWelkom) return reply('𝙰𝙻𝚁𝙴𝙰𝙳𝚈 𝙳𝙸𝚂𝙰𝙱𝙻𝙴𝙳') var ini = welkom.indexOf(from) welkom.splice(ini, 1) fs.writeFileSync('./database/welcome.json', JSON.stringify(welkom)) reply('𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙳𝙸𝚂𝙰𝙱𝙻𝙴𝙳') } break
 
 
